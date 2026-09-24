@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4b7ab524411354474914a77069bf17e1
+RoslynAnalyzerConfigImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 268614
+  packageName: Crest Water 5 (Oceans, Rivers, Lakes)
+  packageVersion: 5.10.1
+  assetPath: Packages/com.waveharmonic.crest/Samples~/Examples/Scripts/WaveHarmonic.Crest.Samples.Examples.globalconfig
+  uploadId: 984266

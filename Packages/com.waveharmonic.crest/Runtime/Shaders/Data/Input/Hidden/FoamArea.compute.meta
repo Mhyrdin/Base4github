@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 212a9fa14e1e44e76b46a8b19400945d
+ComputeShaderImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 268614
+  packageName: Crest Water 5 (Oceans, Rivers, Lakes)
+  packageVersion: 5.10.1
+  assetPath: Packages/com.waveharmonic.crest/Runtime/Shaders/Data/Input/Hidden/FoamArea.compute
+  uploadId: 984266

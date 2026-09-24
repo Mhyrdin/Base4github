@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 94a0757dbd2714e44b5fe0e412142b65
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 268614
+  packageName: Crest Water 5 (Oceans, Rivers, Lakes)
+  packageVersion: 5.10.1
+  assetPath: Packages/com.waveharmonic.crest/Samples~/Storm/Prefabs/Storm_Sun.prefab
+  uploadId: 984266

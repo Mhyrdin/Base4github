@@ -1,0 +1,6 @@
+# Crest Water System
+# Copyright © 2024 Wave Harmonic. All rights reserved.
+
+is_global = true
+build_property.UnityEnableAutoStaticsCleanupCodeGen = false
+build_property.UnityEnableAutoStaticsCleanupAnalysis = false

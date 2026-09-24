@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2e74f9618f4774b31ac23b0e15cd27ed
+ComputeShaderImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 268614
+  packageName: Crest Water 5 (Oceans, Rivers, Lakes)
+  packageVersion: 5.10.1
+  assetPath: Packages/com.waveharmonic.crest/Runtime/Shaders/Data/Input/Hidden/FlowArea.compute
+  uploadId: 984266

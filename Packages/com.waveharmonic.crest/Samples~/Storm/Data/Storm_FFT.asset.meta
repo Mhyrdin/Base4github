@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8032380f5a2e444c7ba15b09248ccfa7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 268614
+  packageName: Crest Water 5 (Oceans, Rivers, Lakes)
+  packageVersion: 5.10.1
+  assetPath: Packages/com.waveharmonic.crest/Samples~/Storm/Data/Storm_FFT.asset
+  uploadId: 984266

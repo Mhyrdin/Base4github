@@ -1,0 +1,37 @@
+// Crest Water System
+// Copyright © 2024 Wave Harmonic. All rights reserved.
+
+using UnityEngine;
+using WaveHarmonic.Crest.Internal;
+
+namespace WaveHarmonic.Crest.Examples
+{
+    /// <summary>
+    /// Places the game object on the water surface by moving it vertically.
+    /// </summary>
+    [AddComponentMenu(Constants.k_MenuPrefixSample + "Sample Height Demo")]
+    sealed class SampleHeightDemo : ManagedBehaviour<WaterRenderer>
+    {
+        [Tooltip(ICollisionProvider.k_LayerTooltip)]
+        [@DecoratedField]
+        [SerializeField]
+        CollisionLayer _Layer;
+
+        readonly SampleCollisionHelper _SampleHeightHelper = new();
+
+        private protected override System.Action<WaterRenderer> OnUpdateMethod => OnUpdate;
+        void OnUpdate(WaterRenderer water)
+        {
+            // Assume a primitive like a sphere or box.
+            var r = Transform.lossyScale.magnitude;
+            var p = Transform.position;
+
+            if (_SampleHeightHelper.SampleHeight(p, out var height, minimumLength: 2f * r, _Layer))
+            {
+                p = Transform.position;
+                p.y = height;
+                Transform.position = p;
+            }
+        }
+    }
+}

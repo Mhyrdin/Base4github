@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0c854976ac4be405e931e6cc6a3f56ad
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 268614
+  packageName: Crest Water 5 (Oceans, Rivers, Lakes)
+  packageVersion: 5.10.1
+  assetPath: Packages/com.waveharmonic.crest/Samples~/Storm/Data/Storm_Gerstner.asset
+  uploadId: 984266

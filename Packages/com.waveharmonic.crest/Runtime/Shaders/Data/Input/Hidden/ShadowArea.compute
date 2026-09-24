@@ -1,0 +1,24 @@
+// Crest Water System
+// Copyright © 2024 Wave Harmonic. All rights reserved.
+
+#pragma exclude_renderers glcore gles3
+
+#pragma kernel CrestExecute
+
+#define m_AreaType float2
+#define m_AreaTargetType m_Float2
+#define m_Result m_Float2FromFloat2
+#define d_Persistent 1
+
+#include "Packages/com.waveharmonic.crest/Runtime/Shaders/Library/Area.hlsl"
+
+m_CrestNameSpace
+
+void Execute(uint3 id)
+{
+    Execute(id, Cascade::MakeShadow(id.z));
+}
+
+m_CrestNameSpaceEnd
+
+m_CrestInputKernelDefault(Execute)
